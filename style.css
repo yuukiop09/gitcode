@@ -111,7 +111,7 @@ body {
       rgba(240, 240, 240, 0.144),
       rgba(255, 255, 255, 0.336)
     ),
-    url("https://i.postimg.cc/wT3TQS3V/header-image2.jpg");
+    url("https://images.pexels.com/photos/1414651/pexels-photo-1414651.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -277,6 +277,10 @@ body {
 
 /* .........../Food Menu/............ */
 
+#food-menu {
+  background-color: beige;
+}
+
 .food-menu-heading {
   text-align: center;
   font-size: 3.4rem;
@@ -304,6 +308,7 @@ body {
   flex: 1 1 600px;
   justify-content: space-evenly;
   margin-bottom: 3rem;
+  
 }
 
 .food-description {
@@ -376,7 +381,7 @@ body {
 
 #contact {
   padding: 5rem 0;
-  background: rgb(226, 226, 226);
+  /* background: rgb(226, 226, 226); */
 }
 
 .contact-container {
